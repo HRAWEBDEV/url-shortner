@@ -9,25 +9,25 @@ const Navigation = () => {
    <Button variant='ghost' size='sm'>
     <AiOutlineMenu fill='currentColor' className='text-3xl' />
    </Button>
-   <div className='absolute end-0 start-0 top-full bg-secondary rounded-md p-4'>
-    <ul className='border-b border-neutral-500 mb-3 pb-3'>
+   <div className='absolute end-0 start-0 top-full bg-secondary rounded-lg p-4 py-8'>
+    <ul className='border-b border-custom-ctGray/20 mb-3 pb-3'>
      <li className='text-center'>
-      <Button asChild variant='link' className='text-white'>
+      <Button asChild variant='link' className='text-white' size='lg'>
        <Link href='#'>Features</Link>
       </Button>
      </li>
      <li className='text-center'>
-      <Button asChild variant='link' className='text-white'>
+      <Button asChild variant='link' className='text-white' size='lg'>
        <Link href='#'>Pricing</Link>
       </Button>
      </li>
      <li className='text-center'>
-      <Button asChild variant='link' className='text-white'>
+      <Button asChild variant='link' className='text-white' size='lg'>
        <Link href='#'>Resources</Link>
       </Button>
      </li>
     </ul>
-    <div className='grid'>
+    <div className='grid gap-2'>
      <Button variant='link' className='text-white' size='lg'>
       Login
      </Button>
